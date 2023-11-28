@@ -10,8 +10,7 @@
 
 ::: header
 ::: summary
-[Public Member Functions](#pub-methods) \| [List of all
-members](class_example_class-members.html)
+[Public Member Functions](#pub-methods)
 :::
 
 ::: headertitle

@@ -11,15 +11,14 @@
 ::: header
 ::: headertitle
 ::: title
-Class List
+Data Structures
 :::
 :::
 :::
 
 ::: contents
 ::: textblock
-Here are the classes, structs, unions and interfaces with brief
-descriptions:
+Here are the data structures with brief descriptions:
 :::
 
 ::: directory

@@ -10,8 +10,7 @@
 
 ::: header
 ::: summary
-[Public Member Functions](#pub-methods) \| [List of all
-members](class_math-members.html)
+[Public Member Functions](#pub-methods)
 :::
 
 ::: headertitle

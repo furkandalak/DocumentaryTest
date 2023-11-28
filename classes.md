@@ -11,7 +11,7 @@
 ::: header
 ::: headertitle
 ::: title
-Class Index
+Data Structure Index
 :::
 :::
 :::

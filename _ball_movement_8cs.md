@@ -18,7 +18,7 @@
 
 ::: header
 ::: summary
-[Classes](#nested-classes) \| [Typedefs](#typedef-members)
+[Data Structures](#nested-classes) \| [Typedefs](#typedef-members)
 :::
 
 ::: headertitle
@@ -32,8 +32,9 @@ BallMovement.cs File Reference
 [Go to the source code of this file.](_ball_movement_8cs_source.html)
 
 +-----------------------------------+-----------------------------------+
-| ## []{#nested-classes             |                                   |
-| } Classes {#classes .groupheader} |                                   |
+| ## [                              |                                   |
+| ]{#nested-classes} Data Structure |                                   |
+| s {#data-structures .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | class                             | [BallMovemen                      |
 |                                   | t](class_ball_movement.html){.el} |

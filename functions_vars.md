@@ -10,8 +10,8 @@
 
 ::: contents
 ::: textblock
-Here is a list of all variables with links to the classes they belong
-to:
+Here is a list of all variables with links to the structures/unions they
+belong to:
 :::
 
 -   ball : [BallMovement](class_ball_movement.html#ab2657ddd68ebf02876c11212145fcfdb){.el}

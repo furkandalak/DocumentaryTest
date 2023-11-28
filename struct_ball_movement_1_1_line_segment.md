@@ -15,9 +15,7 @@
 
 ::: header
 ::: summary
-[Public Member Functions](#pub-methods) \| [Public
-Attributes](#pub-attribs) \| [List of all
-members](struct_ball_movement_1_1_line_segment-members.html)
+[Public Member Functions](#pub-methods) \| [Data Fields](#pub-attribs)
 :::
 
 ::: headertitle
@@ -56,9 +54,8 @@ Calculates two line segmentation.
 +-----------------------------------+-----------------------------------+
 
 +-----------------------------------+-----------------------------------+
-| ## []                             |                                   |
-| {#pub-attribs} Public Attributes  |                                   |
-| {#public-attributes .groupheader} |                                   |
+| ## []{#pub-attribs} Data F        |                                   |
+| ields {#data-fields .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | Vector3                           | [start](struct_ball_move          |
 |                                   | ment_1_1_line_segment.html#ab6925 |
@@ -139,7 +136,7 @@ file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
 :::
 :::
 
-## Member Data Documentation {#member-data-documentation .groupheader}
+## Field Documentation {#field-documentation .groupheader}
 
 []{#a69fc40fa8c0df4a8c088a9fdd6c97449}
 

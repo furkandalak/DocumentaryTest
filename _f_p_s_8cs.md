@@ -18,7 +18,7 @@
 
 ::: header
 ::: summary
-[Classes](#nested-classes)
+[Data Structures](#nested-classes)
 :::
 
 ::: headertitle
@@ -32,8 +32,9 @@ FPS.cs File Reference
 [Go to the source code of this file.](_f_p_s_8cs_source.html)
 
 +-----------------------------------+-----------------------------------+
-| ## []{#nested-classes             |                                   |
-| } Classes {#classes .groupheader} |                                   |
+| ## [                              |                                   |
+| ]{#nested-classes} Data Structure |                                   |
+| s {#data-structures .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | class                             | [FPS](class_f_p_s.html){.el}      |
 +-----------------------------------+-----------------------------------+

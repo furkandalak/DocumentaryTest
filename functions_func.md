@@ -10,8 +10,8 @@
 
 ::: contents
 ::: textblock
-Here is a list of all functions with links to the classes they belong
-to:
+Here is a list of all functions with links to the structures/unions they
+belong to:
 :::
 
 -   AddTwoIntegers() : [Math](class_math.html#a7c871f51dfc34ae986cd577e732183ae){.el}

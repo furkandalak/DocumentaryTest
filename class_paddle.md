@@ -10,8 +10,7 @@
 
 ::: header
 ::: summary
-[Public Attributes](#pub-attribs) \| [List of all
-members](class_paddle-members.html)
+[Data Fields](#pub-attribs)
 :::
 
 ::: headertitle
@@ -27,9 +26,8 @@ This Class performs
 Movement. [More\...](class_paddle.html#details)
 
 +-----------------------------------+-----------------------------------+
-| ## []                             |                                   |
-| {#pub-attribs} Public Attributes  |                                   |
-| {#public-attributes .groupheader} |                                   |
+| ## []{#pub-attribs} Data F        |                                   |
+| ields {#data-fields .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | float                             | [speed](class_paddle.html#a25f7d  |
 |                                   | 923692a3ad5c5c394961a847a3a){.el} |
@@ -51,7 +49,7 @@ Definition at line [8](_paddle_8cs_source.html#l00008){.el} of file
 [Paddle.cs](_paddle_8cs_source.html){.el}.
 :::
 
-## Member Data Documentation {#member-data-documentation .groupheader}
+## Field Documentation {#field-documentation .groupheader}
 
 []{#a25f7d923692a3ad5c5c394961a847a3a}
 

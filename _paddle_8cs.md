@@ -18,7 +18,7 @@
 
 ::: header
 ::: summary
-[Classes](#nested-classes)
+[Data Structures](#nested-classes)
 :::
 
 ::: headertitle
@@ -32,8 +32,9 @@ Paddle.cs File Reference
 [Go to the source code of this file.](_paddle_8cs_source.html)
 
 +-----------------------------------+-----------------------------------+
-| ## []{#nested-classes             |                                   |
-| } Classes {#classes .groupheader} |                                   |
+| ## [                              |                                   |
+| ]{#nested-classes} Data Structure |                                   |
+| s {#data-structures .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | class                             | [Paddle](class_paddle.html){.el}  |
 +-----------------------------------+-----------------------------------+

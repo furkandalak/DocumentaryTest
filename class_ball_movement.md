@@ -10,9 +10,8 @@
 
 ::: header
 ::: summary
-[Classes](#nested-classes) \| [Public Member Functions](#pub-methods) \|
-[Public Attributes](#pub-attribs) \| [List of all
-members](class_ball_movement-members.html)
+[Data Structures](#nested-classes) \| [Public Member
+Functions](#pub-methods) \| [Data Fields](#pub-attribs)
 :::
 
 ::: headertitle
@@ -27,8 +26,9 @@ This Class controls Ball Movement and Segment Intersections.
 [More\...](class_ball_movement.html#details)
 
 +-----------------------------------+-----------------------------------+
-| ## []{#nested-classes             |                                   |
-| } Classes {#classes .groupheader} |                                   |
+| ## [                              |                                   |
+| ]{#nested-classes} Data Structure |                                   |
+| s {#data-structures .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | struct                            | [LineSegment](struct_ball_mov     |
 |                                   | ement_1_1_line_segment.html){.el} |
@@ -56,9 +56,8 @@ This Class controls Ball Movement and Segment Intersections.
 +-----------------------------------+-----------------------------------+
 
 +-----------------------------------+-----------------------------------+
-| ## []                             |                                   |
-| {#pub-attribs} Public Attributes  |                                   |
-| {#public-attributes .groupheader} |                                   |
+| ## []{#pub-attribs} Data F        |                                   |
+| ields {#data-fields .groupheader} |                                   |
 +-----------------------------------+-----------------------------------+
 | Transform                         | [ball                             |
 |                                   | ](class_ball_movement.html#ab2657 |
@@ -157,7 +156,7 @@ file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
 :::
 :::
 
-## Member Data Documentation {#member-data-documentation .groupheader}
+## Field Documentation {#field-documentation .groupheader}
 
 []{#ab2657ddd68ebf02876c11212145fcfdb}
 

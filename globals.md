@@ -10,8 +10,8 @@
 
 ::: contents
 ::: textblock
-Here is a list of all file members with links to the files they belong
-to:
+Here is a list of all functions, variables, defines, enums, and typedefs
+with links to the files they belong to:
 :::
 
 -   Random : [BallMovement.cs](_ball_movement_8cs.html#a832e8f52fca5a678819ec96269dcb532){.el}
