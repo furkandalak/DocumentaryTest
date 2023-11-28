@@ -1,50 +1,12 @@
-<div id="top">
-
-<div id="titlearea">
-
-<table data-cellspacing="0" data-cellpadding="0">
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr id="projectrow" class="odd">
-<td id="projectalign"><div id="projectname">
-PongExample<span id="projectnumber"> 1.0.0</span>
-</div></td>
-</tr>
-</tbody>
-</table>
+<div id="_extra-example">
 
 </div>
 
-</div>
+<span id="_extra-example" label="_extra-example"></span>Some test
+examples for other functions. **WIP**
 
-<div class="header">
+<div class="DoxyCodeInclude">
 
-<div class="headertitle">
-
-<div class="title">
-
-Extra
+0
 
 </div>
-
-</div>
-
-</div>
-
-<div class="contents">
-
-Some test examples for other functions. **WIP**
-
-<div class="fragment">
-
-</div>
-
-</div>
-
-------------------------------------------------------------------------
-
-<span class="small">Generated
-by [<img src="doxygen.svg" class="footer" width="104" height="31"
-alt="doxygen" />](https://www.doxygen.org/index.html) 1.9.8</span>
