@@ -23,8 +23,9 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Data Structures](#nested-classes) \| [Public Member
-Functions](#pub-methods) \| [Data Fields](#pub-attribs)
+[Classes](#nested-classes) \| [Public Member Functions](#pub-methods) \|
+[Public Attributes](#pub-attribs) \| [List of all
+members](class_ball_movement-members.html)
 
 </div>
 
@@ -52,8 +53,8 @@ This Class controls Ball Movement and Segment Intersections.
 </colgroup>
 <tbody>
 <tr class="odd heading">
-<td colspan="2"><h2 id="data-structures" class="groupheader"><span
-id="nested-classes"></span> Data Structures</h2></td>
+<td colspan="2"><h2 id="classes" class="groupheader"><span
+id="nested-classes"></span> Classes</h2></td>
 </tr>
 <tr class="even memitem:">
 <td class="memItemLeft" style="text-align: right;"
@@ -107,8 +108,8 @@ q1, Vector3 q2, out Vector3 intersectionPoint)</td>
 </colgroup>
 <tbody>
 <tr class="odd heading">
-<td colspan="2"><h2 id="data-fields" class="groupheader"><span
-id="pub-attribs"></span> Data Fields</h2></td>
+<td colspan="2"><h2 id="public-attributes" class="groupheader"><span
+id="pub-attribs"></span> Public Attributes</h2></td>
 </tr>
 <tr id="r_ab2657ddd68ebf02876c11212145fcfdb"
 class="even memitem:ab2657ddd68ebf02876c11212145fcfdb">
@@ -215,58 +216,14 @@ file
 
 <div class="memproto">
 
-<table class="mlabels">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="mlabels-left"><table class="memname">
-<tbody>
-<tr class="odd">
-<td class="memname">bool BallMovement.LineSegmentIntersection</td>
-<td>(</td>
-<td class="paramtype">Vector3 </td>
-<td class="paramname"><em>p1</em>,</td>
-</tr>
-<tr class="even">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">Vector3 </td>
-<td class="paramname"><em>p2</em>,</td>
-</tr>
-<tr class="odd">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">Vector3 </td>
-<td class="paramname"><em>q1</em>,</td>
-</tr>
-<tr class="even">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">Vector3 </td>
-<td class="paramname"><em>q2</em>,</td>
-</tr>
-<tr class="odd">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">out Vector3 </td>
-<td class="paramname"><em>intersectionPoint</em> </td>
-</tr>
-<tr class="even">
-<td></td>
-<td>)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table></td>
-<td class="mlabels-right"><span class="mlabels"><span
-class="mlabel">inline</span></span></td>
-</tr>
-</tbody>
-</table>
+|                                           |     |              |                      |
+|-------------------------------------------|-----|--------------|----------------------|
+| bool BallMovement.LineSegmentIntersection | (   | Vector3      | *p1*,                |
+|                                           |     | Vector3      | *p2*,                |
+|                                           |     | Vector3      | *q1*,                |
+|                                           |     | Vector3      | *q2*,                |
+|                                           |     | out Vector3  | *intersectionPoint*  |
+|                                           | )   |              |                      |
 
 </div>
 
@@ -281,7 +238,7 @@ file
 
 </div>
 
-## Field Documentation
+## Member Data Documentation
 
 <span id="ab2657ddd68ebf02876c11212145fcfdb"></span>
 

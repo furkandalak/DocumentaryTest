@@ -25,7 +25,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="title">
 
-Data Structure Index
+Class Index
 
 </div>
 

@@ -38,7 +38,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Data Structures](#nested-classes)
+[Classes](#nested-classes)
 
 </div>
 
@@ -65,8 +65,8 @@ Paddle.cs File Reference
 </colgroup>
 <tbody>
 <tr class="odd heading">
-<td colspan="2"><h2 id="data-structures" class="groupheader"><span
-id="nested-classes"></span> Data Structures</h2></td>
+<td colspan="2"><h2 id="classes" class="groupheader"><span
+id="nested-classes"></span> Classes</h2></td>
 </tr>
 <tr class="even memitem:">
 <td class="memItemLeft" style="text-align: right;"

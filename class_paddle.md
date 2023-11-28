@@ -23,7 +23,8 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Data Fields](#pub-attribs)
+[Public Attributes](#pub-attribs) \| [List of all
+members](class_paddle-members.html)
 
 </div>
 
@@ -52,8 +53,8 @@ title="This Class performs Paddle Movement.">Paddle</a> Movement.
 </colgroup>
 <tbody>
 <tr class="odd heading">
-<td colspan="2"><h2 id="data-fields" class="groupheader"><span
-id="pub-attribs"></span> Data Fields</h2></td>
+<td colspan="2"><h2 id="public-attributes" class="groupheader"><span
+id="pub-attribs"></span> Public Attributes</h2></td>
 </tr>
 <tr id="r_a25f7d923692a3ad5c5c394961a847a3a"
 class="even memitem:a25f7d923692a3ad5c5c394961a847a3a">
@@ -84,7 +85,7 @@ Definition at line
 
 </div>
 
-## Field Documentation
+## Member Data Documentation
 
 <span id="a25f7d923692a3ad5c5c394961a847a3a"></span>
 

@@ -23,7 +23,8 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Public Member Functions](#pub-methods)
+[Public Member Functions](#pub-methods) \| [List of all
+members](class_math-members.html)
 
 </div>
 
@@ -153,40 +154,11 @@ Definition at line
 
 <div class="memproto">
 
-<table class="mlabels">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="mlabels-left"><table class="memname">
-<tbody>
-<tr class="odd">
-<td class="memname">int Math.AddTwoIntegers</td>
-<td>(</td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>a</em>,</td>
-</tr>
-<tr class="even">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>b</em> </td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table></td>
-<td class="mlabels-right"><span class="mlabels"><span
-class="mlabel">inline</span></span></td>
-</tr>
-</tbody>
-</table>
+|                         |     |      |      |
+|-------------------------|-----|------|------|
+| int Math.AddTwoIntegers | (   | int  | *a*, |
+|                         |     | int  | *b*  |
+|                         | )   |      |      |
 
 </div>
 
@@ -221,40 +193,11 @@ Definition at line
 
 <div class="memproto">
 
-<table class="mlabels">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="mlabels-left"><table class="memname">
-<tbody>
-<tr class="odd">
-<td class="memname">int Math.MultiTwoIntegers</td>
-<td>(</td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>a</em>,</td>
-</tr>
-<tr class="even">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>b</em> </td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table></td>
-<td class="mlabels-right"><span class="mlabels"><span
-class="mlabel">inline</span></span></td>
-</tr>
-</tbody>
-</table>
+|                           |     |      |      |
+|---------------------------|-----|------|------|
+| int Math.MultiTwoIntegers | (   | int  | *a*, |
+|                           |     | int  | *b*  |
+|                           | )   |      |      |
 
 </div>
 
@@ -306,40 +249,11 @@ Definition at line
 
 <div class="memproto">
 
-<table class="mlabels">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="mlabels-left"><table class="memname">
-<tbody>
-<tr class="odd">
-<td class="memname">int Math.SubTwoIntegers</td>
-<td>(</td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>a</em>,</td>
-</tr>
-<tr class="even">
-<td class="paramkey"></td>
-<td></td>
-<td class="paramtype">int </td>
-<td class="paramname"><em>b</em> </td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table></td>
-<td class="mlabels-right"><span class="mlabels"><span
-class="mlabel">inline</span></span></td>
-</tr>
-</tbody>
-</table>
+|                         |     |      |      |
+|-------------------------|-----|------|------|
+| int Math.SubTwoIntegers | (   | int  | *a*, |
+|                         |     | int  | *b*  |
+|                         | )   |      |      |
 
 </div>
 
@@ -374,29 +288,9 @@ Definition at line
 
 <div class="memproto">
 
-<table class="mlabels">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="mlabels-left"><table class="memname">
-<tbody>
-<tr class="odd">
-<td class="memname">void Math.Update</td>
-<td>(</td>
-<td class="paramname"></td>
-<td>)</td>
-<td></td>
-</tr>
-</tbody>
-</table></td>
-<td class="mlabels-right"><span class="mlabels"><span
-class="mlabel">inline</span></span></td>
-</tr>
-</tbody>
-</table>
+|                  |     |     |     |     |
+|------------------|-----|-----|-----|-----|
+| void Math.Update | (   |     | )   |     |
 
 </div>
 
