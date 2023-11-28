@@ -1,91 +1,245 @@
-::: {#struct_ball_movement_1_1_line_segment}
+::: {#top}
+::: {#titlearea}
++-----------------------------------+-----------------------------------+
+| ::: {#projectname}                | :::                               |
+| Po                                | {#MSearchBox .MSearchBoxInactive} |
+| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
+| :::                               | onmouseover="retur                |
+|                                   | n searchBox.OnSearchSelectShow()" |
+|                                   | onmouseout="return                |
+|                                   |  searchBox.OnSearchSelectHide()"} |
+|                                   | ]{.left}[                         |
+|                                   | [![](s                            |
+|                                   | earch/close.svg){#MSearchCloseImg |
+|                                   | bord                              |
+|                                   | er="0"}](javascript:searchBox.Clo |
+|                                   | seResultsWindow()){#MSearchClose} |
+|                                   | ]{.right}                         |
+|                                   | :::                               |
++-----------------------------------+-----------------------------------+
+:::
 :::
 
-[]{#struct_ball_movement_1_1_line_segment
-label="struct_ball_movement_1_1_line_segment"}
+::: {#side-nav .ui-resizable .side-nav-resizable}
+::: {#nav-tree}
+::: {#nav-tree-contents}
+::: {#nav-sync .sync}
+:::
+:::
+:::
 
+::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
+:::
+:::
+
+::: {#doc-content}
+::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
+:::
+
+::: {#MSearchResultsWindow}
+::: {#MSearchResults}
+::: SRPage
+::: {#SRIndex}
+::: {#SRResults}
+:::
+
+::: {#Loading .SRStatus}
+Loading\...
+:::
+
+::: {#Searching .SRStatus}
+Searching\...
+:::
+
+::: {#NoMatches .SRStatus}
+No Matches
+:::
+:::
+:::
+:::
+:::
+
+::: header
+::: summary
+[Public Member Functions](#pub-methods) \| [Public
+Attributes](#pub-attribs) \| [List of all
+members](struct_ball_movement_1_1_line_segment-members.html)
+:::
+
+::: headertitle
+::: title
+BallMovement.LineSegment Struct Reference
+:::
+:::
+:::
+
+::: contents
+Calculates two line segmentation.
+[More\...](struct_ball_movement_1_1_line_segment.html#details)
+
++-----------------------------------+-----------------------------------+
+| ## []{#pub-method                 |                                   |
+| s} Public Member Functions {#publ |                                   |
+| ic-member-functions .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+|                                   | [LineSegment](struct_ball_move    |
+|                                   | ment_1_1_line_segment.html#ad2b56 |
+|                                   | 7b007687d6235085bfb628f6fe8){.el} |
+|                                   | (Vector3                          |
+|                                   | [start](struct_ball_movem         |
+|                                   | ent_1_1_line_segment.html#ab6925c |
+|                                   | 20f22c7ed443f2a1710866c9e5){.el}, |
+|                                   | Vector3                           |
+|                                   | [end](struct_ball_movem           |
+|                                   | ent_1_1_line_segment.html#a69fc40 |
+|                                   | fa8c0df4a8c088a9fdd6c97449){.el}, |
+|                                   | Vector3                           |
+|                                   | [normal](struct_ball_movem        |
+|                                   | ent_1_1_line_segment.html#a9c4654 |
+|                                   | ac7f753bf2b97cad21ffc4c04c){.el}) |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
++-----------------------------------+-----------------------------------+
+| ## []                             |                                   |
+| {#pub-attribs} Public Attributes  |                                   |
+| {#public-attributes .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| Vector3                           | [start](struct_ball_move          |
+|                                   | ment_1_1_line_segment.html#ab6925 |
+|                                   | c20f22c7ed443f2a1710866c9e5){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Vector3                           | [end](struct_ball_move            |
+|                                   | ment_1_1_line_segment.html#a69fc4 |
+|                                   | 0fa8c0df4a8c088a9fdd6c97449){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Vector3                           | [normal](struct_ball_move         |
+|                                   | ment_1_1_line_segment.html#a9c465 |
+|                                   | 4ac7f753bf2b97cad21ffc4c04c){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
+[]{#details}
+
+## Detailed Description {#detailed-description .groupheader}
+
+::: textblock
 Calculates two line segmentation.
 
-::: DoxyCompactItemize
-[LineSegment](#struct_ball_movement_1_1_line_segment_ad2b567b007687d6235085bfb628f6fe8)
-(Vector3
-[start](#struct_ball_movement_1_1_line_segment_ab6925c20f22c7ed443f2a1710866c9e5),
-Vector3
-[end](#struct_ball_movement_1_1_line_segment_a69fc40fa8c0df4a8c088a9fdd6c97449),
-Vector3
-[normal](#struct_ball_movement_1_1_line_segment_a9c4654ac7f753bf2b97cad21ffc4c04c))
+Parameters
+
+:   ------------------- -----------------------------
+      p1                  First point of firt line
+      p2                  Second point of first line
+      q1                  First point of second line
+      q2                  Second point of second line
+      intersectionPoint   Returns if intersect
+      ------------------- -----------------------------
+
+```{=html}
+<!-- -->
+```
+
+Returns
+:   Bool
+
+Definition at line [161](_ball_movement_8cs_source.html#l00161){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
 :::
 
-::: DoxyCompactItemize
-Vector3
-[start](#struct_ball_movement_1_1_line_segment_ab6925c20f22c7ed443f2a1710866c9e5)
+## Constructor & Destructor Documentation {#constructor-destructor-documentation .groupheader}
 
-Vector3
-[end](#struct_ball_movement_1_1_line_segment_a69fc40fa8c0df4a8c088a9fdd6c97449)
+[]{#ad2b567b007687d6235085bfb628f6fe8}
 
-Vector3
-[normal](#struct_ball_movement_1_1_line_segment_a9c4654ac7f753bf2b97cad21ffc4c04c)
+## [[◆ ](#ad2b567b007687d6235085bfb628f6fe8)]{.permalink}LineSegment() {#linesegment .memtitle}
+
+::: memitem
+::: memproto
+  -------------------------------------- --- ---------- -----------
+  BallMovement.LineSegment.LineSegment   (   Vector3    *start*,
+                                             Vector3    *end*,
+                                             Vector3    *normal* 
+                                         )              
+  -------------------------------------- --- ---------- -----------
 :::
 
-Calculates two line segmentation.
-
-::: DoxyParams
-Parameters *p1* & First point of firt line\
-*p2* & Second point of first line\
-*q1* & First point of second line\
-*q2* & Second point of second line\
-*intersectionPoint* & Returns if intersect\
+::: memdoc
+Definition at line [167](_ball_movement_8cs_source.html#l00167){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
 :::
 
-::: DoxyReturn
-Returns Bool
+## Member Data Documentation {#member-data-documentation .groupheader}
+
+[]{#a69fc40fa8c0df4a8c088a9fdd6c97449}
+
+## [[◆ ](#a69fc40fa8c0df4a8c088a9fdd6c97449)]{.permalink}end {#end .memtitle}
+
+::: memitem
+::: memproto
+  --------------------------------------
+  Vector3 BallMovement.LineSegment.end
+  --------------------------------------
 :::
 
-Definition at line [161](#_ball_movement_8cs_source_l00161) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
-
-[]{#struct_ball_movement_1_1_line_segment_ad2b567b007687d6235085bfb628f6fe8
-label="struct_ball_movement_1_1_line_segment_ad2b567b007687d6235085bfb628f6fe8"}
-
-BallMovement.LineSegment.LineSegment (
-
-::: DoxyParamCaption
-start,
-
-end,
-
-normal
+::: memdoc
+Definition at line [164](_ball_movement_8cs_source.html#l00164){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
 :::
 
-)
+[]{#a9c4654ac7f753bf2b97cad21ffc4c04c}
 
-Definition at line [167](#_ball_movement_8cs_source_l00167) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+## [[◆ ](#a9c4654ac7f753bf2b97cad21ffc4c04c)]{.permalink}normal {#normal .memtitle}
 
-[]{#struct_ball_movement_1_1_line_segment_a69fc40fa8c0df4a8c088a9fdd6c97449
-label="struct_ball_movement_1_1_line_segment_a69fc40fa8c0df4a8c088a9fdd6c97449"}
-Vector3 BallMovement.LineSegment.end
+::: memitem
+::: memproto
+  -----------------------------------------
+  Vector3 BallMovement.LineSegment.normal
+  -----------------------------------------
+:::
 
-Definition at line [164](#_ball_movement_8cs_source_l00164) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memdoc
+Definition at line [165](_ball_movement_8cs_source.html#l00165){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
 
-[]{#struct_ball_movement_1_1_line_segment_a9c4654ac7f753bf2b97cad21ffc4c04c
-label="struct_ball_movement_1_1_line_segment_a9c4654ac7f753bf2b97cad21ffc4c04c"}
-Vector3 BallMovement.LineSegment.normal
+[]{#ab6925c20f22c7ed443f2a1710866c9e5}
 
-Definition at line [165](#_ball_movement_8cs_source_l00165) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+## [[◆ ](#ab6925c20f22c7ed443f2a1710866c9e5)]{.permalink}start {#start .memtitle}
 
-[]{#struct_ball_movement_1_1_line_segment_ab6925c20f22c7ed443f2a1710866c9e5
-label="struct_ball_movement_1_1_line_segment_ab6925c20f22c7ed443f2a1710866c9e5"}
-Vector3 BallMovement.LineSegment.start
+::: memitem
+::: memproto
+  ----------------------------------------
+  Vector3 BallMovement.LineSegment.start
+  ----------------------------------------
+:::
 
-Definition at line [163](#_ball_movement_8cs_source_l00163) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memdoc
+Definition at line [163](_ball_movement_8cs_source.html#l00163){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
+
+------------------------------------------------------------------------
 
 The documentation for this struct was generated from the following file:
 
-::: DoxyCompactItemize
-C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
-Staj/Assets/Scripts/[BallMovement.cs](#_ball_movement_8cs)
+-   C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
+    Staj/Assets/Scripts/[BallMovement.cs](_ball_movement_8cs_source.html){.el}
+:::
+:::
+
+::: {#nav-path .navpath}
+-   [BallMovement](class_ball_movement.html){.el}
+-   [LineSegment](struct_ball_movement_1_1_line_segment.html){.el}
+-   Generated by [![doxygen](doxygen.svg){.footer width="104"
+    height="31"}](https://www.doxygen.org/index.html) 1.9.8
 :::

@@ -1,9 +1,209 @@
-::: {#_example_class_8cs_source}
+::: {#top}
+::: {#titlearea}
++-----------------------------------+-----------------------------------+
+| ::: {#projectname}                | :::                               |
+| Po                                | {#MSearchBox .MSearchBoxInactive} |
+| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
+| :::                               | onmouseover="retur                |
+|                                   | n searchBox.OnSearchSelectShow()" |
+|                                   | onmouseout="return                |
+|                                   |  searchBox.OnSearchSelectHide()"} |
+|                                   | ]{.left}[                         |
+|                                   | [![](s                            |
+|                                   | earch/close.svg){#MSearchCloseImg |
+|                                   | bord                              |
+|                                   | er="0"}](javascript:searchBox.Clo |
+|                                   | seResultsWindow()){#MSearchClose} |
+|                                   | ]{.right}                         |
+|                                   | :::                               |
++-----------------------------------+-----------------------------------+
+:::
 :::
 
-[]{#_example_class_8cs_source label="_example_class_8cs_source"}
-[Go to the documentation of this file.](#_example_class_8cs)
+::: {#side-nav .ui-resizable .side-nav-resizable}
+::: {#nav-tree}
+::: {#nav-tree-contents}
+::: {#nav-sync .sync}
+:::
+:::
+:::
 
-::: DoxyCode
-0
+::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
+:::
+:::
+
+::: {#doc-content}
+::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
+:::
+
+::: {#MSearchResultsWindow}
+::: {#MSearchResults}
+::: SRPage
+::: {#SRIndex}
+::: {#SRResults}
+:::
+
+::: {#Loading .SRStatus}
+Loading\...
+:::
+
+::: {#Searching .SRStatus}
+Searching\...
+:::
+
+::: {#NoMatches .SRStatus}
+No Matches
+:::
+:::
+:::
+:::
+:::
+
+::: header
+::: headertitle
+::: title
+ExampleClass.cs
+:::
+:::
+:::
+
+::: contents
+[Go to the documentation of this file.](_example_class_8cs.html)
+
+::: fragment
+::: line
+[]{#l00001}[ 1]{.lineno}
+:::
+
+::: {#foldopen00002 .foldopen data-start="{" end="};"}
+::: line
+[]{#l00002}[
+[2](class_example_class.html){.line}]{.lineno}[public]{.keyword} [class
+]{.keyword}[ExampleClass](class_example_class.html){.code .hl_class}
+:::
+
+::: line
+[]{#l00003}[ 3]{.lineno}{
+:::
+
+::: line
+[]{#l00004}[ 4]{.lineno} [// Examples for Dalak Games Devs]{.comment}
+:::
+
+::: {#foldopen00005 .foldopen data-start="{" end="}"}
+::: line
+[]{#l00005}[
+[5](class_example_class.html#aad2debe13d2dbbdbec0efd46c590f217){.line}]{.lineno}
+[public]{.keyword} [void]{.keywordtype}
+[ExampleMethod](class_example_class.html#aad2debe13d2dbbdbec0efd46c590f217){.code
+.hl_function}()
+:::
+
+::: line
+[]{#l00006}[ 6]{.lineno} {
+:::
+
+::: line
+[]{#l00007}[ 7]{.lineno} [int]{.keywordtype} \_num = 3;
+:::
+
+::: line
+[]{#l00008}[ 8]{.lineno} [int]{.keywordtype} \_num2 =
+[Square](class_example_class.html#a1a480cb7ebc79aa436d3db06417d8630){.code
+.hl_function}(\_num);
+:::
+
+::: line
+[]{#l00009}[ 9]{.lineno} }
+:::
+:::
+
+::: line
+[]{#l00010}[ 10]{.lineno} [//]{.comment}
+:::
+
+::: {#foldopen00011 .foldopen data-start="{" end="}"}
+::: line
+[]{#l00011}[
+[11](class_example_class.html#a1a480cb7ebc79aa436d3db06417d8630){.line}]{.lineno}
+[public]{.keyword} [int]{.keywordtype}
+[Square](class_example_class.html#a1a480cb7ebc79aa436d3db06417d8630){.code
+.hl_function}([int]{.keywordtype} a)
+:::
+
+::: line
+[]{#l00012}[ 12]{.lineno} {
+:::
+
+::: line
+[]{#l00013}[ 13]{.lineno} [int]{.keywordtype} \_sqr = a \* a;
+:::
+
+::: line
+[]{#l00014}[ 14]{.lineno} [return]{.keywordflow} \_sqr;
+:::
+
+::: line
+[]{#l00015}[ 15]{.lineno} }
+:::
+:::
+
+::: line
+[]{#l00016}[ 16]{.lineno}}
+:::
+:::
+
+::: {#aclass_example_class_html .ttc}
+::: ttname
+[ExampleClass](class_example_class.html)
+:::
+
+::: ttdef
+**Definition**
+[ExampleClass.cs:3](_example_class_8cs_source.html#l00002)
+:::
+:::
+
+::: {#aclass_example_class_html_a1a480cb7ebc79aa436d3db06417d8630 .ttc}
+::: ttname
+[ExampleClass.Square](class_example_class.html#a1a480cb7ebc79aa436d3db06417d8630)
+:::
+
+::: ttdeci
+int Square(int a)
+:::
+
+::: ttdef
+**Definition**
+[ExampleClass.cs:11](_example_class_8cs_source.html#l00011)
+:::
+:::
+
+::: {#aclass_example_class_html_aad2debe13d2dbbdbec0efd46c590f217 .ttc}
+::: ttname
+[ExampleClass.ExampleMethod](class_example_class.html#aad2debe13d2dbbdbec0efd46c590f217)
+:::
+
+::: ttdeci
+void ExampleMethod()
+:::
+
+::: ttdef
+**Definition**
+[ExampleClass.cs:5](_example_class_8cs_source.html#l00005)
+:::
+:::
+:::
+:::
+:::
+
+::: {#nav-path .navpath}
+-   [FurkanIntern](dir_1dcde7ea5adb4470e937f2f1c0036389.html){.el}
+-   [Internship](dir_db18fc5b59b71647f21f3d49fd35b7b1.html){.el}
+-   [Pong Staj](dir_7f2202f332a95df5c6e50699b596c7b9.html){.el}
+-   [Assets](dir_b7568e80c0eb65df54ebd3d006b23e5e.html){.el}
+-   [Scripts](dir_97d71e10d40891aefe860af68a8d9ea5.html){.el}
+-   [ExampleClass.cs](_example_class_8cs.html){.el}
+-   Generated by [![doxygen](doxygen.svg){.footer width="104"
+    height="31"}](https://www.doxygen.org/index.html) 1.9.8
 :::

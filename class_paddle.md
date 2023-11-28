@@ -1,29 +1,137 @@
-::: {#class_paddle}
+::: {#top}
+::: {#titlearea}
++-----------------------------------+-----------------------------------+
+| ::: {#projectname}                | :::                               |
+| Po                                | {#MSearchBox .MSearchBoxInactive} |
+| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
+| :::                               | onmouseover="retur                |
+|                                   | n searchBox.OnSearchSelectShow()" |
+|                                   | onmouseout="return                |
+|                                   |  searchBox.OnSearchSelectHide()"} |
+|                                   | ]{.left}[                         |
+|                                   | [![](s                            |
+|                                   | earch/close.svg){#MSearchCloseImg |
+|                                   | bord                              |
+|                                   | er="0"}](javascript:searchBox.Clo |
+|                                   | seResultsWindow()){#MSearchClose} |
+|                                   | ]{.right}                         |
+|                                   | :::                               |
++-----------------------------------+-----------------------------------+
+:::
 :::
 
-[]{#class_paddle label="class_paddle"}
-
-This Class performs Movement.
-
-::: DoxyCompactItemize
-float [speed](#class_paddle_a25f7d923692a3ad5c5c394961a847a3a) = 5.0f
+::: {#side-nav .ui-resizable .side-nav-resizable}
+::: {#nav-tree}
+::: {#nav-tree-contents}
+::: {#nav-sync .sync}
+:::
+:::
 :::
 
-This Class performs Movement.
+::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
+:::
+:::
 
-Definition at line [8](#_paddle_8cs_source_l00008) of file
-[Paddle.cs](#_paddle_8cs_source).
+::: {#doc-content}
+::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
+:::
 
-[]{#class_paddle_a25f7d923692a3ad5c5c394961a847a3a
-label="class_paddle_a25f7d923692a3ad5c5c394961a847a3a"} float
-Paddle.speed = 5.0f
+::: {#MSearchResultsWindow}
+::: {#MSearchResults}
+::: SRPage
+::: {#SRIndex}
+::: {#SRResults}
+:::
 
-Definition at line [10](#_paddle_8cs_source_l00010) of file
-[Paddle.cs](#_paddle_8cs_source).
+::: {#Loading .SRStatus}
+Loading\...
+:::
+
+::: {#Searching .SRStatus}
+Searching\...
+:::
+
+::: {#NoMatches .SRStatus}
+No Matches
+:::
+:::
+:::
+:::
+:::
+
+::: header
+::: summary
+[Public Attributes](#pub-attribs) \| [List of all
+members](class_paddle-members.html)
+:::
+
+::: headertitle
+::: title
+Paddle Class Reference
+:::
+:::
+:::
+
+::: contents
+This Class performs
+[Paddle](class_paddle.html "This Class performs Paddle Movement."){.el}
+Movement. [More\...](class_paddle.html#details)
+
++-----------------------------------+-----------------------------------+
+| ## []                             |                                   |
+| {#pub-attribs} Public Attributes  |                                   |
+| {#public-attributes .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| float                             | [speed](class_paddle.html#a25f7d  |
+|                                   | 923692a3ad5c5c394961a847a3a){.el} |
+|                                   | = 5.0f                            |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
+[]{#details}
+
+## Detailed Description {#detailed-description .groupheader}
+
+::: textblock
+This Class performs
+[Paddle](class_paddle.html "This Class performs Paddle Movement."){.el}
+Movement.
+
+Definition at line [8](_paddle_8cs_source.html#l00008){.el} of file
+[Paddle.cs](_paddle_8cs_source.html){.el}.
+:::
+
+## Member Data Documentation {#member-data-documentation .groupheader}
+
+[]{#a25f7d923692a3ad5c5c394961a847a3a}
+
+## [[◆ ](#a25f7d923692a3ad5c5c394961a847a3a)]{.permalink}speed {#speed .memtitle}
+
+::: memitem
+::: memproto
+  ---------------------------
+  float Paddle.speed = 5.0f
+  ---------------------------
+:::
+
+::: memdoc
+Definition at line [10](_paddle_8cs_source.html#l00010){.el} of file
+[Paddle.cs](_paddle_8cs_source.html){.el}.
+:::
+:::
+
+------------------------------------------------------------------------
 
 The documentation for this class was generated from the following file:
 
-::: DoxyCompactItemize
-C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
-Staj/Assets/Scripts/[Paddle.cs](#_paddle_8cs)
+-   C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
+    Staj/Assets/Scripts/[Paddle.cs](_paddle_8cs_source.html){.el}
+:::
+:::
+
+::: {#nav-path .navpath}
+-   [Paddle](class_paddle.html){.el}
+-   Generated by [![doxygen](doxygen.svg){.footer width="104"
+    height="31"}](https://www.doxygen.org/index.html) 1.9.8
 :::

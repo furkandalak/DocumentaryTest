@@ -1,32 +1,144 @@
-::: {#_ball_movement_8cs}
+::: {#top}
+::: {#titlearea}
++-----------------------------------+-----------------------------------+
+| ::: {#projectname}                | :::                               |
+| Po                                | {#MSearchBox .MSearchBoxInactive} |
+| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
+| :::                               | onmouseover="retur                |
+|                                   | n searchBox.OnSearchSelectShow()" |
+|                                   | onmouseout="return                |
+|                                   |  searchBox.OnSearchSelectHide()"} |
+|                                   | ]{.left}[                         |
+|                                   | [![](s                            |
+|                                   | earch/close.svg){#MSearchCloseImg |
+|                                   | bord                              |
+|                                   | er="0"}](javascript:searchBox.Clo |
+|                                   | seResultsWindow()){#MSearchClose} |
+|                                   | ]{.right}                         |
+|                                   | :::                               |
++-----------------------------------+-----------------------------------+
+:::
 :::
 
-[]{#_ball_movement_8cs label="_ball_movement_8cs"}
-
-::: DoxyCompactItemize
-class [BallMovement](#class_ball_movement)
-
-::: DoxyCompactList
-*This Class controls Ball Movement and Segment Intersections.*
+::: {#side-nav .ui-resizable .side-nav-resizable}
+::: {#nav-tree}
+::: {#nav-tree-contents}
+::: {#nav-sync .sync}
 :::
-
-struct
-[BallMovement.LineSegment](#struct_ball_movement_1_1_line_segment)
-
-::: DoxyCompactList
-*Calculates two line segmentation.*
 :::
 :::
 
-::: DoxyCompactItemize
-using [Random](#_ball_movement_8cs_a832e8f52fca5a678819ec96269dcb532) =
-UnityEngine.Random
+::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
+:::
 :::
 
-[]{#_ball_movement_8cs_a832e8f52fca5a678819ec96269dcb532
-label="_ball_movement_8cs_a832e8f52fca5a678819ec96269dcb532"} using
-[Random](#_ball_movement_8cs_a832e8f52fca5a678819ec96269dcb532) =
-UnityEngine.Random
+::: {#doc-content}
+::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
+:::
 
-Definition at line [7](#_ball_movement_8cs_source_l00007) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: {#MSearchResultsWindow}
+::: {#MSearchResults}
+::: SRPage
+::: {#SRIndex}
+::: {#SRResults}
+:::
+
+::: {#Loading .SRStatus}
+Loading\...
+:::
+
+::: {#Searching .SRStatus}
+Searching\...
+:::
+
+::: {#NoMatches .SRStatus}
+No Matches
+:::
+:::
+:::
+:::
+:::
+
+::: header
+::: summary
+[Classes](#nested-classes) \| [Typedefs](#typedef-members)
+:::
+
+::: headertitle
+::: title
+BallMovement.cs File Reference
+:::
+:::
+:::
+
+::: contents
+[Go to the source code of this file.](_ball_movement_8cs_source.html)
+
++-----------------------------------+-----------------------------------+
+| ## []{#nested-classes             |                                   |
+| } Classes {#classes .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| class                             | [BallMovemen                      |
+|                                   | t](class_ball_movement.html){.el} |
++-----------------------------------+-----------------------------------+
+|                                   | This Class controls Ball Movement |
+|                                   | and Segment Intersections.        |
+|                                   | [More\...](c                      |
+|                                   | lass_ball_movement.html#details)\ |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| struct                            | [BallMove                         |
+|                                   | ment.LineSegment](struct_ball_mov |
+|                                   | ement_1_1_line_segment.html){.el} |
++-----------------------------------+-----------------------------------+
+|                                   | Calculates two line segmentation. |
+|                                   | [More\...](struct_ball_movemen    |
+|                                   | t_1_1_line_segment.html#details)\ |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
++-----------------------------------+-----------------------------------+
+| ## []{#typedef-members}           |                                   |
+| Typedefs {#typedefs .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| using                             | [Rando                            |
+|                                   | m](_ball_movement_8cs.html#a832e8 |
+|                                   | f52fca5a678819ec96269dcb532){.el} |
+|                                   | = UnityEngine.Random              |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
+## Typedef Documentation {#typedef-documentation .groupheader}
+
+[]{#a832e8f52fca5a678819ec96269dcb532}
+
+## [[◆ ](#a832e8f52fca5a678819ec96269dcb532)]{.permalink}Random {#random .memtitle}
+
+::: memitem
+::: memproto
+  -----------------------------------------------------------------------------------------------------
+  using [Random](_ball_movement_8cs.html#a832e8f52fca5a678819ec96269dcb532){.el} = UnityEngine.Random
+  -----------------------------------------------------------------------------------------------------
+:::
+
+::: memdoc
+Definition at line [7](_ball_movement_8cs_source.html#l00007){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
+:::
+:::
+
+::: {#nav-path .navpath}
+-   [FurkanIntern](dir_1dcde7ea5adb4470e937f2f1c0036389.html){.el}
+-   [Internship](dir_db18fc5b59b71647f21f3d49fd35b7b1.html){.el}
+-   [Pong Staj](dir_7f2202f332a95df5c6e50699b596c7b9.html){.el}
+-   [Assets](dir_b7568e80c0eb65df54ebd3d006b23e5e.html){.el}
+-   [Scripts](dir_97d71e10d40891aefe860af68a8d9ea5.html){.el}
+-   [BallMovement.cs](_ball_movement_8cs.html){.el}
+-   Generated by [![doxygen](doxygen.svg){.footer width="104"
+    height="31"}](https://www.doxygen.org/index.html) 1.9.8
+:::

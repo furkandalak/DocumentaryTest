@@ -1,126 +1,328 @@
-::: {#class_ball_movement}
+::: {#top}
+::: {#titlearea}
++-----------------------------------+-----------------------------------+
+| ::: {#projectname}                | :::                               |
+| Po                                | {#MSearchBox .MSearchBoxInactive} |
+| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
+| :::                               | onmouseover="retur                |
+|                                   | n searchBox.OnSearchSelectShow()" |
+|                                   | onmouseout="return                |
+|                                   |  searchBox.OnSearchSelectHide()"} |
+|                                   | ]{.left}[                         |
+|                                   | [![](s                            |
+|                                   | earch/close.svg){#MSearchCloseImg |
+|                                   | bord                              |
+|                                   | er="0"}](javascript:searchBox.Clo |
+|                                   | seResultsWindow()){#MSearchClose} |
+|                                   | ]{.right}                         |
+|                                   | :::                               |
++-----------------------------------+-----------------------------------+
+:::
 :::
 
-[]{#class_ball_movement label="class_ball_movement"}
+::: {#side-nav .ui-resizable .side-nav-resizable}
+::: {#nav-tree}
+::: {#nav-tree-contents}
+::: {#nav-sync .sync}
+:::
+:::
+:::
 
+::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
+:::
+:::
+
+::: {#doc-content}
+::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
+:::
+
+::: {#MSearchResultsWindow}
+::: {#MSearchResults}
+::: SRPage
+::: {#SRIndex}
+::: {#SRResults}
+:::
+
+::: {#Loading .SRStatus}
+Loading\...
+:::
+
+::: {#Searching .SRStatus}
+Searching\...
+:::
+
+::: {#NoMatches .SRStatus}
+No Matches
+:::
+:::
+:::
+:::
+:::
+
+::: header
+::: summary
+[Classes](#nested-classes) \| [Public Member Functions](#pub-methods) \|
+[Public Attributes](#pub-attribs) \| [List of all
+members](class_ball_movement-members.html)
+:::
+
+::: headertitle
+::: title
+BallMovement Class Reference
+:::
+:::
+:::
+
+::: contents
+This Class controls Ball Movement and Segment Intersections.
+[More\...](class_ball_movement.html#details)
+
++-----------------------------------+-----------------------------------+
+| ## []{#nested-classes             |                                   |
+| } Classes {#classes .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| struct                            | [LineSegment](struct_ball_mov     |
+|                                   | ement_1_1_line_segment.html){.el} |
++-----------------------------------+-----------------------------------+
+|                                   | Calculates two line segmentation. |
+|                                   | [More\...](struct_ball_movemen    |
+|                                   | t_1_1_line_segment.html#details)\ |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
++-----------------------------------+-----------------------------------+
+| ## []{#pub-method                 |                                   |
+| s} Public Member Functions {#publ |                                   |
+| ic-member-functions .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| bool                              | [LineSegmentIntersection          |
+|                                   | ](class_ball_movement.html#a2c618 |
+|                                   | 0a5d985ce8c7c39596ab9e5d9a3){.el} |
+|                                   | (Vector3 p1, Vector3 p2, Vector3  |
+|                                   | q1, Vector3 q2, out Vector3       |
+|                                   | intersectionPoint)                |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
++-----------------------------------+-----------------------------------+
+| ## []                             |                                   |
+| {#pub-attribs} Public Attributes  |                                   |
+| {#public-attributes .groupheader} |                                   |
++-----------------------------------+-----------------------------------+
+| Transform                         | [ball                             |
+|                                   | ](class_ball_movement.html#ab2657 |
+|                                   | ddd68ebf02876c11212145fcfdb){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Transform                         | [paddle1                          |
+|                                   | ](class_ball_movement.html#afc7bd |
+|                                   | 1ba11daafd6825473d72337f708){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Transform                         | [paddle2                          |
+|                                   | ](class_ball_movement.html#ae6fbc |
+|                                   | 952b54fb915ac79385d0a55ecc0){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| float                             | [edgeFollow                       |
+|                                   | ](class_ball_movement.html#aa3341 |
+|                                   | 6010b3040ac39e7b02bfa7aa95a){.el} |
+|                                   | = 11f                             |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| float                             | [speed                            |
+|                                   | ](class_ball_movement.html#ae5be5 |
+|                                   | 14e8f3c1b3af767d5a8627c9277){.el} |
+|                                   | = 5f                              |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Vector2                           | [direction                        |
+|                                   | ](class_ball_movement.html#ac6a63 |
+|                                   | f2cbb61ce14dda95621177ee843){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| Font                              | [font                             |
+|                                   | ](class_ball_movement.html#a5866f |
+|                                   | 553f594be14a85c88de4fcdf36f){.el} |
++-----------------------------------+-----------------------------------+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+
+[]{#details}
+
+## Detailed Description {#detailed-description .groupheader}
+
+::: textblock
 This Class controls Ball Movement and Segment Intersections.
 
-::: DoxyCompactItemize
-struct [LineSegment](#struct_ball_movement_1_1_line_segment)
+Definition at line [12](_ball_movement_8cs_source.html#l00012){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
 
-::: DoxyCompactList
-*Calculates two line segmentation.*
+## Member Function Documentation {#member-function-documentation .groupheader}
+
+[]{#a2c6180a5d985ce8c7c39596ab9e5d9a3}
+
+## [[◆ ](#a2c6180a5d985ce8c7c39596ab9e5d9a3)]{.permalink}LineSegmentIntersection() {#linesegmentintersection .memtitle}
+
+::: memitem
+::: memproto
+  ------------------------------------------- --- -------------- ----------------------
+  bool BallMovement.LineSegmentIntersection   (   Vector3        *p1*,
+                                                  Vector3        *p2*,
+                                                  Vector3        *q1*,
+                                                  Vector3        *q2*,
+                                                  out Vector3    *intersectionPoint* 
+                                              )                  
+  ------------------------------------------- --- -------------- ----------------------
+:::
+
+::: memdoc
+Definition at line [175](_ball_movement_8cs_source.html#l00175){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
 :::
 :::
 
-::: DoxyCompactItemize
-bool
-[LineSegmentIntersection](#class_ball_movement_a2c6180a5d985ce8c7c39596ab9e5d9a3)
-(Vector3 p1, Vector3 p2, Vector3 q1, Vector3 q2, out Vector3
-intersectionPoint)
+## Member Data Documentation {#member-data-documentation .groupheader}
+
+[]{#ab2657ddd68ebf02876c11212145fcfdb}
+
+## [[◆ ](#ab2657ddd68ebf02876c11212145fcfdb)]{.permalink}ball {#ball .memtitle}
+
+::: memitem
+::: memproto
+  -----------------------------
+  Transform BallMovement.ball
+  -----------------------------
 :::
 
-::: DoxyCompactItemize
-Transform [ball](#class_ball_movement_ab2657ddd68ebf02876c11212145fcfdb)
-
-Transform
-[paddle1](#class_ball_movement_afc7bd1ba11daafd6825473d72337f708)
-
-Transform
-[paddle2](#class_ball_movement_ae6fbc952b54fb915ac79385d0a55ecc0)
-
-float
-[edgeFollow](#class_ball_movement_aa33416010b3040ac39e7b02bfa7aa95a) =
-11f
-
-float [speed](#class_ball_movement_ae5be514e8f3c1b3af767d5a8627c9277) =
-5f
-
-Vector2
-[direction](#class_ball_movement_ac6a63f2cbb61ce14dda95621177ee843)
-
-Font [font](#class_ball_movement_a5866f553f594be14a85c88de4fcdf36f)
+::: memdoc
+Definition at line [14](_ball_movement_8cs_source.html#l00014){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
 :::
 
-This Class controls Ball Movement and Segment Intersections.
+[]{#ac6a63f2cbb61ce14dda95621177ee843}
 
-Definition at line [12](#_ball_movement_8cs_source_l00012) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+## [[◆ ](#ac6a63f2cbb61ce14dda95621177ee843)]{.permalink}direction {#direction .memtitle}
 
-[]{#class_ball_movement_a2c6180a5d985ce8c7c39596ab9e5d9a3
-label="class_ball_movement_a2c6180a5d985ce8c7c39596ab9e5d9a3"}
-
-bool BallMovement.LineSegmentIntersection (
-
-::: DoxyParamCaption
-p1,
-
-p2,
-
-q1,
-
-q2,
-
-intersectionPoint
+::: memitem
+::: memproto
+  --------------------------------
+  Vector2 BallMovement.direction
+  --------------------------------
 :::
 
-)
+::: memdoc
+Definition at line [20](_ball_movement_8cs_source.html#l00020){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
 
-Definition at line [175](#_ball_movement_8cs_source_l00175) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+[]{#aa33416010b3040ac39e7b02bfa7aa95a}
 
-[]{#class_ball_movement_ab2657ddd68ebf02876c11212145fcfdb
-label="class_ball_movement_ab2657ddd68ebf02876c11212145fcfdb"} Transform
-BallMovement.ball
+## [[◆ ](#aa33416010b3040ac39e7b02bfa7aa95a)]{.permalink}edgeFollow {#edgefollow .memtitle}
 
-Definition at line [14](#_ball_movement_8cs_source_l00014) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memitem
+::: memproto
+  -------------------------------------
+  float BallMovement.edgeFollow = 11f
+  -------------------------------------
+:::
 
-[]{#class_ball_movement_ac6a63f2cbb61ce14dda95621177ee843
-label="class_ball_movement_ac6a63f2cbb61ce14dda95621177ee843"} Vector2
-BallMovement.direction
+::: memdoc
+Definition at line [18](_ball_movement_8cs_source.html#l00018){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
 
-Definition at line [20](#_ball_movement_8cs_source_l00020) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+[]{#a5866f553f594be14a85c88de4fcdf36f}
 
-[]{#class_ball_movement_aa33416010b3040ac39e7b02bfa7aa95a
-label="class_ball_movement_aa33416010b3040ac39e7b02bfa7aa95a"} float
-BallMovement.edgeFollow = 11f
+## [[◆ ](#a5866f553f594be14a85c88de4fcdf36f)]{.permalink}font {#font .memtitle}
 
-Definition at line [18](#_ball_movement_8cs_source_l00018) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memitem
+::: memproto
+  ------------------------
+  Font BallMovement.font
+  ------------------------
+:::
 
-[]{#class_ball_movement_a5866f553f594be14a85c88de4fcdf36f
-label="class_ball_movement_a5866f553f594be14a85c88de4fcdf36f"} Font
-BallMovement.font
+::: memdoc
+Definition at line [229](_ball_movement_8cs_source.html#l00229){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
 
-Definition at line [229](#_ball_movement_8cs_source_l00229) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+[]{#afc7bd1ba11daafd6825473d72337f708}
 
-[]{#class_ball_movement_afc7bd1ba11daafd6825473d72337f708
-label="class_ball_movement_afc7bd1ba11daafd6825473d72337f708"} Transform
-BallMovement.paddle1
+## [[◆ ](#afc7bd1ba11daafd6825473d72337f708)]{.permalink}paddle1 {#paddle1 .memtitle}
 
-Definition at line [15](#_ball_movement_8cs_source_l00015) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memitem
+::: memproto
+  --------------------------------
+  Transform BallMovement.paddle1
+  --------------------------------
+:::
 
-[]{#class_ball_movement_ae6fbc952b54fb915ac79385d0a55ecc0
-label="class_ball_movement_ae6fbc952b54fb915ac79385d0a55ecc0"} Transform
-BallMovement.paddle2
+::: memdoc
+Definition at line [15](_ball_movement_8cs_source.html#l00015){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
 
-Definition at line [16](#_ball_movement_8cs_source_l00016) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+[]{#ae6fbc952b54fb915ac79385d0a55ecc0}
 
-[]{#class_ball_movement_ae5be514e8f3c1b3af767d5a8627c9277
-label="class_ball_movement_ae5be514e8f3c1b3af767d5a8627c9277"} float
-BallMovement.speed = 5f
+## [[◆ ](#ae6fbc952b54fb915ac79385d0a55ecc0)]{.permalink}paddle2 {#paddle2 .memtitle}
 
-Definition at line [19](#_ball_movement_8cs_source_l00019) of file
-[BallMovement.cs](#_ball_movement_8cs_source).
+::: memitem
+::: memproto
+  --------------------------------
+  Transform BallMovement.paddle2
+  --------------------------------
+:::
+
+::: memdoc
+Definition at line [16](_ball_movement_8cs_source.html#l00016){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
+
+[]{#ae5be514e8f3c1b3af767d5a8627c9277}
+
+## [[◆ ](#ae5be514e8f3c1b3af767d5a8627c9277)]{.permalink}speed {#speed .memtitle}
+
+::: memitem
+::: memproto
+  -------------------------------
+  float BallMovement.speed = 5f
+  -------------------------------
+:::
+
+::: memdoc
+Definition at line [19](_ball_movement_8cs_source.html#l00019){.el} of
+file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
+:::
+:::
+
+------------------------------------------------------------------------
 
 The documentation for this class was generated from the following file:
 
-::: DoxyCompactItemize
-C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
-Staj/Assets/Scripts/[BallMovement.cs](#_ball_movement_8cs)
+-   C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
+    Staj/Assets/Scripts/[BallMovement.cs](_ball_movement_8cs_source.html){.el}
+:::
+:::
+
+::: {#nav-path .navpath}
+-   [BallMovement](class_ball_movement.html){.el}
+-   Generated by [![doxygen](doxygen.svg){.footer width="104"
+    height="31"}](https://www.doxygen.org/index.html) 1.9.8
 :::
