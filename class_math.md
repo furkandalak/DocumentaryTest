@@ -1,61 +1,10 @@
 ::: {#top}
 ::: {#titlearea}
-+-----------------------------------+-----------------------------------+
-| ::: {#projectname}                | :::                               |
-| Po                                | {#MSearchBox .MSearchBoxInactive} |
-| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
-| :::                               | onmouseover="retur                |
-|                                   | n searchBox.OnSearchSelectShow()" |
-|                                   | onmouseout="return                |
-|                                   |  searchBox.OnSearchSelectHide()"} |
-|                                   | ]{.left}[                         |
-|                                   | [![](s                            |
-|                                   | earch/close.svg){#MSearchCloseImg |
-|                                   | bord                              |
-|                                   | er="0"}](javascript:searchBox.Clo |
-|                                   | seResultsWindow()){#MSearchClose} |
-|                                   | ]{.right}                         |
-|                                   | :::                               |
-+-----------------------------------+-----------------------------------+
-:::
-:::
-
-::: {#side-nav .ui-resizable .side-nav-resizable}
-::: {#nav-tree}
-::: {#nav-tree-contents}
-::: {#nav-sync .sync}
-:::
-:::
-:::
-
-::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
-:::
-:::
-
-::: {#doc-content}
-::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
-:::
-
-::: {#MSearchResultsWindow}
-::: {#MSearchResults}
-::: SRPage
-::: {#SRIndex}
-::: {#SRResults}
-:::
-
-::: {#Loading .SRStatus}
-Loading\...
-:::
-
-::: {#Searching .SRStatus}
-Searching\...
-:::
-
-::: {#NoMatches .SRStatus}
-No Matches
-:::
-:::
-:::
++-----------------------------------------------------------------------+
+| ::: {#projectname}                                                    |
+| PongExample[ 1.0.0]{#projectnumber}                                   |
+| :::                                                                   |
++-----------------------------------------------------------------------+
 :::
 :::
 
@@ -148,11 +97,18 @@ Definition at line [42](_f_p_s_8cs_source.html#l00042){.el} of file
 
 ::: memitem
 ::: memproto
-  ------------------------- --- ------ ------
-  int Math.AddTwoIntegers   (   int    *a*,
-                                int    *b* 
-                            )          
-  ------------------------- --- ------ ------
++-----------------------------------+-----------------------------------+
+|   ----------                      | [[inline]{.mlabel}]{.mlabels}     |
+| --------------- --- ------ ------ |                                   |
+|   int Math                        |                                   |
+| .AddTwoIntegers   (   int    *a*, |                                   |
+|                                   |                                   |
+|                       int    *b*  |                                   |
+|                                   |                                   |
+|                       )           |                                   |
+|   ----------                      |                                   |
+| --------------- --- ------ ------ |                                   |
++-----------------------------------+-----------------------------------+
 :::
 
 ::: memdoc
@@ -183,11 +139,18 @@ Definition at line [47](_f_p_s_8cs_source.html#l00047){.el} of file
 
 ::: memitem
 ::: memproto
-  --------------------------- --- ------ ------
-  int Math.MultiTwoIntegers   (   int    *a*,
-                                  int    *b* 
-                              )          
-  --------------------------- --- ------ ------
++-----------------------------------+-----------------------------------+
+|   ------------                    | [[inline]{.mlabel}]{.mlabels}     |
+| --------------- --- ------ ------ |                                   |
+|   int Math.M                      |                                   |
+| ultiTwoIntegers   (   int    *a*, |                                   |
+|                                   |                                   |
+|                       int    *b*  |                                   |
+|                                   |                                   |
+|                       )           |                                   |
+|   ------------                    |                                   |
+| --------------- --- ------ ------ |                                   |
++-----------------------------------+-----------------------------------+
 :::
 
 ::: memdoc
@@ -241,11 +204,18 @@ Definition at line [70](_f_p_s_8cs_source.html#l00070){.el} of file
 
 ::: memitem
 ::: memproto
-  ------------------------- --- ------ ------
-  int Math.SubTwoIntegers   (   int    *a*,
-                                int    *b* 
-                            )          
-  ------------------------- --- ------ ------
++-----------------------------------+-----------------------------------+
+|   ----------                      | [[inline]{.mlabel}]{.mlabels}     |
+| --------------- --- ------ ------ |                                   |
+|   int Math                        |                                   |
+| .SubTwoIntegers   (   int    *a*, |                                   |
+|                                   |                                   |
+|                       int    *b*  |                                   |
+|                                   |                                   |
+|                       )           |                                   |
+|   ----------                      |                                   |
+| --------------- --- ------ ------ |                                   |
++-----------------------------------+-----------------------------------+
 :::
 
 ::: memdoc
@@ -276,9 +246,13 @@ Definition at line [57](_f_p_s_8cs_source.html#l00057){.el} of file
 
 ::: memitem
 ::: memproto
-  ------------------ --- -- --- --
-  void Math.Update   (      )   
-  ------------------ --- -- --- --
++-----------------------------------+-----------------------------------+
+|                                   | [[inline]{.mlabel}]{.mlabels}     |
+|  ------------------ --- -- --- -- |                                   |
+|   void Math.Update   (      )     |                                   |
+|                                   |                                   |
+|  ------------------ --- -- --- -- |                                   |
++-----------------------------------+-----------------------------------+
 :::
 
 ::: memdoc
@@ -294,10 +268,8 @@ The documentation for this class was generated from the following file:
 -   C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
     Staj/Assets/Scripts/[FPS.cs](_f_p_s_8cs_source.html){.el}
 :::
-:::
 
-::: {#nav-path .navpath}
--   [Math](class_math.html){.el}
--   Generated by [![doxygen](doxygen.svg){.footer width="104"
-    height="31"}](https://www.doxygen.org/index.html) 1.9.8
-:::
+------------------------------------------------------------------------
+
+[Generated by [![doxygen](doxygen.svg){.footer width="104"
+height="31"}](https://www.doxygen.org/index.html) 1.9.8]{.small}

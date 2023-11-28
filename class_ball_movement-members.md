@@ -1,61 +1,10 @@
 ::: {#top}
 ::: {#titlearea}
-+-----------------------------------+-----------------------------------+
-| ::: {#projectname}                | :::                               |
-| Po                                | {#MSearchBox .MSearchBoxInactive} |
-| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
-| :::                               | onmouseover="retur                |
-|                                   | n searchBox.OnSearchSelectShow()" |
-|                                   | onmouseout="return                |
-|                                   |  searchBox.OnSearchSelectHide()"} |
-|                                   | ]{.left}[                         |
-|                                   | [![](s                            |
-|                                   | earch/close.svg){#MSearchCloseImg |
-|                                   | bord                              |
-|                                   | er="0"}](javascript:searchBox.Clo |
-|                                   | seResultsWindow()){#MSearchClose} |
-|                                   | ]{.right}                         |
-|                                   | :::                               |
-+-----------------------------------+-----------------------------------+
-:::
-:::
-
-::: {#side-nav .ui-resizable .side-nav-resizable}
-::: {#nav-tree}
-::: {#nav-tree-contents}
-::: {#nav-sync .sync}
-:::
-:::
-:::
-
-::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
-:::
-:::
-
-::: {#doc-content}
-::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
-:::
-
-::: {#MSearchResultsWindow}
-::: {#MSearchResults}
-::: SRPage
-::: {#SRIndex}
-::: {#SRResults}
-:::
-
-::: {#Loading .SRStatus}
-Loading\...
-:::
-
-::: {#Searching .SRStatus}
-Searching\...
-:::
-
-::: {#NoMatches .SRStatus}
-No Matches
-:::
-:::
-:::
++-----------------------------------------------------------------------+
+| ::: {#projectname}                                                    |
+| PongExample[ 1.0.0]{#projectnumber}                                   |
+| :::                                                                   |
++-----------------------------------------------------------------------+
 :::
 :::
 
@@ -72,20 +21,19 @@ This is the complete list of members for
 [BallMovement](class_ball_movement.html){.el}, including all inherited
 members.
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- --
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- -------------------
   [ball](class_ball_movement.html#ab2657ddd68ebf02876c11212145fcfdb){.el}                                                                                                     [BallMovement](class_ball_movement.html){.el}   
   [direction](class_ball_movement.html#ac6a63f2cbb61ce14dda95621177ee843){.el}                                                                                                [BallMovement](class_ball_movement.html){.el}   
   [edgeFollow](class_ball_movement.html#aa33416010b3040ac39e7b02bfa7aa95a){.el}                                                                                               [BallMovement](class_ball_movement.html){.el}   
   [font](class_ball_movement.html#a5866f553f594be14a85c88de4fcdf36f){.el}                                                                                                     [BallMovement](class_ball_movement.html){.el}   
-  [LineSegmentIntersection](class_ball_movement.html#a2c6180a5d985ce8c7c39596ab9e5d9a3){.el}(Vector3 p1, Vector3 p2, Vector3 q1, Vector3 q2, out Vector3 intersectionPoint)   [BallMovement](class_ball_movement.html){.el}   
+  [LineSegmentIntersection](class_ball_movement.html#a2c6180a5d985ce8c7c39596ab9e5d9a3){.el}(Vector3 p1, Vector3 p2, Vector3 q1, Vector3 q2, out Vector3 intersectionPoint)   [BallMovement](class_ball_movement.html){.el}   [inline]{.mlabel}
   [paddle1](class_ball_movement.html#afc7bd1ba11daafd6825473d72337f708){.el}                                                                                                  [BallMovement](class_ball_movement.html){.el}   
   [paddle2](class_ball_movement.html#ae6fbc952b54fb915ac79385d0a55ecc0){.el}                                                                                                  [BallMovement](class_ball_movement.html){.el}   
   [speed](class_ball_movement.html#ae5be514e8f3c1b3af767d5a8627c9277){.el}                                                                                                    [BallMovement](class_ball_movement.html){.el}   
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- --
-:::
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- -------------------
 :::
 
-::: {#nav-path .navpath}
--   Generated by [![doxygen](doxygen.svg){.footer width="104"
-    height="31"}](https://www.doxygen.org/index.html) 1.9.8
-:::
+------------------------------------------------------------------------
+
+[Generated by [![doxygen](doxygen.svg){.footer width="104"
+height="31"}](https://www.doxygen.org/index.html) 1.9.8]{.small}

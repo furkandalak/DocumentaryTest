@@ -1,61 +1,10 @@
 ::: {#top}
 ::: {#titlearea}
-+-----------------------------------+-----------------------------------+
-| ::: {#projectname}                | :::                               |
-| Po                                | {#MSearchBox .MSearchBoxInactive} |
-| ngExample[ 1.0.0]{#projectnumber} | [ [ ]{#MSearchSelect              |
-| :::                               | onmouseover="retur                |
-|                                   | n searchBox.OnSearchSelectShow()" |
-|                                   | onmouseout="return                |
-|                                   |  searchBox.OnSearchSelectHide()"} |
-|                                   | ]{.left}[                         |
-|                                   | [![](s                            |
-|                                   | earch/close.svg){#MSearchCloseImg |
-|                                   | bord                              |
-|                                   | er="0"}](javascript:searchBox.Clo |
-|                                   | seResultsWindow()){#MSearchClose} |
-|                                   | ]{.right}                         |
-|                                   | :::                               |
-+-----------------------------------+-----------------------------------+
-:::
-:::
-
-::: {#side-nav .ui-resizable .side-nav-resizable}
-::: {#nav-tree}
-::: {#nav-tree-contents}
-::: {#nav-sync .sync}
-:::
-:::
-:::
-
-::: {#splitbar .ui-resizable-handle style="-moz-user-select:none;"}
-:::
-:::
-
-::: {#doc-content}
-::: {#MSearchSelectWindow onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)"}
-:::
-
-::: {#MSearchResultsWindow}
-::: {#MSearchResults}
-::: SRPage
-::: {#SRIndex}
-::: {#SRResults}
-:::
-
-::: {#Loading .SRStatus}
-Loading\...
-:::
-
-::: {#Searching .SRStatus}
-Searching\...
-:::
-
-::: {#NoMatches .SRStatus}
-No Matches
-:::
-:::
-:::
++-----------------------------------------------------------------------+
+| ::: {#projectname}                                                    |
+| PongExample[ 1.0.0]{#projectnumber}                                   |
+| :::                                                                   |
++-----------------------------------------------------------------------+
 :::
 :::
 
@@ -175,14 +124,31 @@ file [BallMovement.cs](_ball_movement_8cs_source.html){.el}.
 
 ::: memitem
 ::: memproto
-  ------------------------------------------- --- -------------- ----------------------
-  bool BallMovement.LineSegmentIntersection   (   Vector3        *p1*,
-                                                  Vector3        *p2*,
-                                                  Vector3        *q1*,
-                                                  Vector3        *q2*,
-                                                  out Vector3    *intersectionPoint* 
-                                              )                  
-  ------------------------------------------- --- -------------- ----------------------
++-----------------------------------+-----------------------------------+
+|   -------------------             | [[inline]{.mlabel}]{.mlabels}     |
+| ------------------------ --- ---- |                                   |
+| ---------- ---------------------- |                                   |
+|   bo                              |                                   |
+| ol BallMovement.LineSegmentInters |                                   |
+| ection   (   Vector3        *p1*, |                                   |
+|                                   |                                   |
+|                                   |                                   |
+|              Vector3        *p2*, |                                   |
+|                                   |                                   |
+|                                   |                                   |
+|              Vector3        *q1*, |                                   |
+|                                   |                                   |
+|                                   |                                   |
+|              Vector3        *q2*, |                                   |
+|                                   |                                   |
+|                                ou |                                   |
+| t Vector3    *intersectionPoint*  |                                   |
+|                                   |                                   |
+|               )                   |                                   |
+|   -------------------             |                                   |
+| ------------------------ --- ---- |                                   |
+| ---------- ---------------------- |                                   |
++-----------------------------------+-----------------------------------+
 :::
 
 ::: memdoc
@@ -319,10 +285,8 @@ The documentation for this class was generated from the following file:
 -   C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
     Staj/Assets/Scripts/[BallMovement.cs](_ball_movement_8cs_source.html){.el}
 :::
-:::
 
-::: {#nav-path .navpath}
--   [BallMovement](class_ball_movement.html){.el}
--   Generated by [![doxygen](doxygen.svg){.footer width="104"
-    height="31"}](https://www.doxygen.org/index.html) 1.9.8
-:::
+------------------------------------------------------------------------
+
+[Generated by [![doxygen](doxygen.svg){.footer width="104"
+height="31"}](https://www.doxygen.org/index.html) 1.9.8]{.small}
