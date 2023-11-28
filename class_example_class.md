@@ -1,70 +1,163 @@
-<div id="class_example_class">
+<div id="top">
+
+<div id="titlearea">
+
+<table data-cellspacing="0" data-cellpadding="0">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr id="projectrow" class="odd">
+<td id="projectalign"><div id="projectname">
+PongExample<span id="projectnumber"> 1.0.0</span>
+</div></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
-<span id="class_example_class" label="class_example_class"></span>
+</div>
 
-<div class="DoxyCompactItemize">
+<div class="header">
 
-void
-[ExampleMethod](#class_example_class_aad2debe13d2dbbdbec0efd46c590f217)
-()
+<div class="summary">
 
-int [Square](#class_example_class_a1a480cb7ebc79aa436d3db06417d8630)
-(int a)
+[Public Member Functions](#pub-methods) \| [List of all
+members](class_example_class-members.html)
 
 </div>
 
-<div class="Desc">
+<div class="headertitle">
 
-[Math](#_math-example).
+<div class="title">
 
-</div>
-
-Definition at line [2](#_example_class_8cs_source_l00002) of file
-[ExampleClass.cs](#_example_class_8cs_source).
-
-<span id="class_example_class_aad2debe13d2dbbdbec0efd46c590f217"
-label="class_example_class_aad2debe13d2dbbdbec0efd46c590f217"></span>
-
-void ExampleClass.ExampleMethod (
-
-<div class="DoxyParamCaption">
+ExampleClass Class Reference
 
 </div>
 
-)
-
-<div class="Desc">
-
-[Math](#_math-example).
+</div>
 
 </div>
 
-Definition at line [5](#_example_class_8cs_source_l00005) of file
-[ExampleClass.cs](#_example_class_8cs_source).
+<div class="contents">
 
-<span id="class_example_class_a1a480cb7ebc79aa436d3db06417d8630"
-label="class_example_class_a1a480cb7ebc79aa436d3db06417d8630"></span>
+<table class="memberdecls">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd heading">
+<td colspan="2"><h2 id="public-member-functions"
+class="groupheader"><span id="pub-methods"></span> Public Member
+Functions</h2></td>
+</tr>
+<tr id="r_aad2debe13d2dbbdbec0efd46c590f217"
+class="even memitem:aad2debe13d2dbbdbec0efd46c590f217">
+<td class="memItemLeft" style="text-align: right;"
+data-valign="top">void </td>
+<td class="memItemRight" data-valign="bottom"><a
+href="class_example_class.html#aad2debe13d2dbbdbec0efd46c590f217"
+class="el">ExampleMethod</a> ()</td>
+</tr>
+<tr class="odd separator:aad2debe13d2dbbdbec0efd46c590f217">
+<td colspan="2" class="memSeparator"> </td>
+</tr>
+<tr id="r_a1a480cb7ebc79aa436d3db06417d8630"
+class="even memitem:a1a480cb7ebc79aa436d3db06417d8630">
+<td class="memItemLeft" style="text-align: right;"
+data-valign="top">int </td>
+<td class="memItemRight" data-valign="bottom"><a
+href="class_example_class.html#a1a480cb7ebc79aa436d3db06417d8630"
+class="el">Square</a> (int a)</td>
+</tr>
+<tr class="odd separator:a1a480cb7ebc79aa436d3db06417d8630">
+<td colspan="2" class="memSeparator"> </td>
+</tr>
+</tbody>
+</table>
 
-int ExampleClass.Square (
+<span id="details"></span>
 
-<div class="DoxyParamCaption">
+## Detailed Description
 
-a
+<div class="textblock">
+
+Examples  
+<a href="_math-example.html#_a0" class="el">Math</a>.
+
+Definition at line
+<a href="_example_class_8cs_source.html#l00002" class="el">2</a> of file
+<a href="_example_class_8cs_source.html" class="el">ExampleClass.cs</a>.
 
 </div>
 
-)
+## Member Function Documentation
 
-Definition at line [11](#_example_class_8cs_source_l00011) of file
-[ExampleClass.cs](#_example_class_8cs_source).
+<span id="aad2debe13d2dbbdbec0efd46c590f217"></span>
+
+## <span class="permalink">[◆ ](#aad2debe13d2dbbdbec0efd46c590f217)</span>ExampleMethod()
+
+<div class="memitem">
+
+<div class="memproto">
+
+|                                 |     |     |     |     |
+|---------------------------------|-----|-----|-----|-----|
+| void ExampleClass.ExampleMethod | (   |     | )   |     |
+
+</div>
+
+<div class="memdoc">
+
+Examples  
+<a href="_math-example.html#a1" class="el">Math</a>.
+
+Definition at line
+<a href="_example_class_8cs_source.html#l00005" class="el">5</a> of file
+<a href="_example_class_8cs_source.html" class="el">ExampleClass.cs</a>.
+
+</div>
+
+</div>
+
+<span id="a1a480cb7ebc79aa436d3db06417d8630"></span>
+
+## <span class="permalink">[◆ ](#a1a480cb7ebc79aa436d3db06417d8630)</span>Square()
+
+<div class="memitem">
+
+<div class="memproto">
+
+|                         |     |      |     |     |     |
+|-------------------------|-----|------|-----|-----|-----|
+| int ExampleClass.Square | (   | int  | *a* | )   |     |
+
+</div>
+
+<div class="memdoc">
+
+Definition at line
+<a href="_example_class_8cs_source.html#l00011" class="el">11</a> of
+file
+<a href="_example_class_8cs_source.html" class="el">ExampleClass.cs</a>.
+
+</div>
+
+</div>
+
+------------------------------------------------------------------------
 
 The documentation for this class was generated from the following file:
 
-<div class="DoxyCompactItemize">
-
-C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
-Staj/Assets/Scripts/[ExampleClass.cs](#_example_class_8cs)
+- C:/Users/dalakgames/Desktop/FurkanIntern/Internship/Pong
+  Staj/Assets/Scripts/<a href="_example_class_8cs_source.html" class="el">ExampleClass.cs</a>
 
 </div>
+
+------------------------------------------------------------------------
+
+<span class="small">Generated
+by [<img src="doxygen.svg" class="footer" width="104" height="31"
+alt="doxygen" />](https://www.doxygen.org/index.html) 1.9.8</span>

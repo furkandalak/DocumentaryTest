@@ -25,7 +25,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="title">
 
-Extra
+FPS Member List
 
 </div>
 
@@ -35,11 +35,9 @@ Extra
 
 <div class="contents">
 
-Some test examples for other functions. **WIP**
-
-<div class="fragment">
-
-</div>
+This is the complete list of members for
+<a href="class_f_p_s.html" class="el">FPS</a>, including all inherited
+members.
 
 </div>
 

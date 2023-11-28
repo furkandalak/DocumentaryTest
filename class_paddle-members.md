@@ -25,7 +25,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="title">
 
-Extra
+Paddle Member List
 
 </div>
 
@@ -35,11 +35,14 @@ Extra
 
 <div class="contents">
 
-Some test examples for other functions. **WIP**
+This is the complete list of members for
+<a href="class_paddle.html" class="el">Paddle</a>, including all
+inherited members.
 
-<div class="fragment">
-
-</div>
+|                                                               |                                                   |     |
+|---------------------------------------------------------------|---------------------------------------------------|-----|
+| <a href="class_paddle.html#a25f7d923692a3ad5c5c394961a847a3a" 
+ class="el">speed</a>                                           | <a href="class_paddle.html" class="el">Paddle</a> |     |
 
 </div>
 
