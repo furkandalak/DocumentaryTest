@@ -23,8 +23,8 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="textblock">
 
-Here is a list of all variables with links to the classes they belong
-to:
+Here is a list of all variables with links to the structures/unions they
+belong to:
 
 </div>
 

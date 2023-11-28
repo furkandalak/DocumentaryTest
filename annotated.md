@@ -25,7 +25,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="title">
 
-Class List
+Data Structures
 
 </div>
 
@@ -37,8 +37,7 @@ Class List
 
 <div class="textblock">
 
-Here are the classes, structs, unions and interfaces with brief
-descriptions:
+Here are the data structures with brief descriptions:
 
 </div>
 

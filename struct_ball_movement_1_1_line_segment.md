@@ -31,9 +31,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Public Member Functions](#pub-methods) \| [Public
-Attributes](#pub-attribs) \| [List of all
-members](struct_ball_movement_1_1_line_segment-members.html)
+[Public Member Functions](#pub-methods) \| [Data Fields](#pub-attribs)
 
 </div>
 
@@ -92,8 +90,8 @@ class="el">normal</a>)</td>
 </colgroup>
 <tbody>
 <tr class="odd heading">
-<td colspan="2"><h2 id="public-attributes" class="groupheader"><span
-id="pub-attribs"></span> Public Attributes</h2></td>
+<td colspan="2"><h2 id="data-fields" class="groupheader"><span
+id="pub-attribs"></span> Data Fields</h2></td>
 </tr>
 <tr id="r_ab6925c20f22c7ed443f2a1710866c9e5"
 class="even memitem:ab6925c20f22c7ed443f2a1710866c9e5">
@@ -170,12 +168,46 @@ file
 
 <div class="memproto">
 
-|                                      |     |          |           |
-|--------------------------------------|-----|----------|-----------|
-| BallMovement.LineSegment.LineSegment | (   | Vector3  | *start*,  |
-|                                      |     | Vector3  | *end*,    |
-|                                      |     | Vector3  | *normal*  |
-|                                      | )   |          |           |
+<table class="mlabels">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td class="mlabels-left"><table class="memname">
+<tbody>
+<tr class="odd">
+<td class="memname">BallMovement.LineSegment.LineSegment</td>
+<td>(</td>
+<td class="paramtype">Vector3 </td>
+<td class="paramname"><em>start</em>,</td>
+</tr>
+<tr class="even">
+<td class="paramkey"></td>
+<td></td>
+<td class="paramtype">Vector3 </td>
+<td class="paramname"><em>end</em>,</td>
+</tr>
+<tr class="odd">
+<td class="paramkey"></td>
+<td></td>
+<td class="paramtype">Vector3 </td>
+<td class="paramname"><em>normal</em> </td>
+</tr>
+<tr class="even">
+<td></td>
+<td>)</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td class="mlabels-right"><span class="mlabels"><span
+class="mlabel">inline</span></span></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
@@ -190,7 +222,7 @@ file
 
 </div>
 
-## Member Data Documentation
+## Field Documentation
 
 <span id="a69fc40fa8c0df4a8c088a9fdd6c97449"></span>
 

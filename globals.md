@@ -23,8 +23,8 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="textblock">
 
-Here is a list of all file members with links to the files they belong
-to:
+Here is a list of all functions, variables, defines, enums, and typedefs
+with links to the files they belong to:
 
 </div>
 

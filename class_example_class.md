@@ -23,8 +23,7 @@ PongExample<span id="projectnumber"> 1.0.0</span>
 
 <div class="summary">
 
-[Public Member Functions](#pub-methods) \| [List of all
-members](class_example_class-members.html)
+[Public Member Functions](#pub-methods)
 
 </div>
 
@@ -103,9 +102,29 @@ Definition at line
 
 <div class="memproto">
 
-|                                 |     |     |     |     |
-|---------------------------------|-----|-----|-----|-----|
-| void ExampleClass.ExampleMethod | (   |     | )   |     |
+<table class="mlabels">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td class="mlabels-left"><table class="memname">
+<tbody>
+<tr class="odd">
+<td class="memname">void ExampleClass.ExampleMethod</td>
+<td>(</td>
+<td class="paramname"></td>
+<td>)</td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td class="mlabels-right"><span class="mlabels"><span
+class="mlabel">inline</span></span></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
@@ -130,9 +149,30 @@ Definition at line
 
 <div class="memproto">
 
-|                         |     |      |     |     |     |
-|-------------------------|-----|------|-----|-----|-----|
-| int ExampleClass.Square | (   | int  | *a* | )   |     |
+<table class="mlabels">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td class="mlabels-left"><table class="memname">
+<tbody>
+<tr class="odd">
+<td class="memname">int ExampleClass.Square</td>
+<td>(</td>
+<td class="paramtype">int </td>
+<td class="paramname"><em>a</em></td>
+<td>)</td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td class="mlabels-right"><span class="mlabels"><span
+class="mlabel">inline</span></span></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 

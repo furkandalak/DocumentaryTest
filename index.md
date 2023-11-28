@@ -36,14 +36,14 @@ PongExample Documentation
 <div class="contents">
 
 - [Main Page](index.html)
-- [Classes](annotated.html)
-  - [Class List](annotated.html)
-  - [Class Index](classes.html)
+- [Data Structures](annotated.html)
+  - [Data Structures](annotated.html)
+  - [Data Structure Index](classes.html)
   - [Class Hierarchy](hierarchy.html)
-  - [Class Members](functions.html)
+  - [Data Fields](functions.html)
 - [Files](files.html)
   - [File List](files.html)
-  - [File Members](globals.html)
+  - [Globals](globals.html)
 - [Examples](examples.html)
 
 </div>
